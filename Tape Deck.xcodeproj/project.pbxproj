@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031F104E2CFE5C0300A4A2AA /* RecordingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F104D2CFE5C0300A4A2AA /* RecordingListView.swift */; };
+		031F10512CFE60A100A4A2AA /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F10502CFE60A100A4A2AA /* View.swift */; };
+		031F10582D00961300A4A2AA /* RecorderButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F10572D00961300A4A2AA /* RecorderButtonView.swift */; };
+		031F105A2D00A3E200A4A2AA /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F10592D00A3E200A4A2AA /* NotificationController.swift */; };
+		031F105C2D00AB5900A4A2AA /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F105B2D00AB5900A4A2AA /* RecordingView.swift */; };
+		031F10612D03368F00A4A2AA /* AudioState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F10602D03368F00A4A2AA /* AudioState.swift */; };
+		031F10632D0336A300A4A2AA /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F10622D0336A300A4A2AA /* AppState.swift */; };
+		031F10652D033B6100A4A2AA /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F10642D033B6100A4A2AA /* RecorderView.swift */; };
+		03ED39BE2CFE3C3100753A18 /* TapeDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED39BD2CFE3C3100753A18 /* TapeDeck.swift */; };
+		03ED39C22CFE3C3200753A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ED39C12CFE3C3200753A18 /* Assets.xcassets */; };
+		03ED39C52CFE3C3200753A18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ED39C42CFE3C3200753A18 /* Preview Assets.xcassets */; };
+		03ED39CD2CFE3D0000753A18 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED39CC2CFE3D0000753A18 /* Date.swift */; };
+		03ED39D32CFE3D4E00753A18 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED39D22CFE3D4E00753A18 /* AudioController.swift */; };
+		03ED39D52CFE3D7A00753A18 /* FileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED39D42CFE3D7A00753A18 /* FileController.swift */; };
+		03ED39D72CFE3D9800753A18 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED39D62CFE3D9800753A18 /* Recording.swift */; };
+		03ED39DA2CFE3DDC00753A18 /* NewRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED39D92CFE3DDC00753A18 /* NewRecordingView.swift */; };
+		03ED39E22CFE508200753A18 /* RecordingMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED39E12CFE508200753A18 /* RecordingMetadata.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031F104D2CFE5C0300A4A2AA /* RecordingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingListView.swift; sourceTree = "<group>"; };
+		031F10502CFE60A100A4A2AA /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		031F10522CFE646800A4A2AA /* Tape-Deck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tape-Deck-Info.plist"; sourceTree = SOURCE_ROOT; };
+		031F10572D00961300A4A2AA /* RecorderButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderButtonView.swift; sourceTree = "<group>"; };
+		031F10592D00A3E200A4A2AA /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		031F105B2D00AB5900A4A2AA /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		031F10602D03368F00A4A2AA /* AudioState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioState.swift; sourceTree = "<group>"; };
+		031F10622D0336A300A4A2AA /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		031F10642D033B6100A4A2AA /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
+		03ED39BA2CFE3C3100753A18 /* Tape Deck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tape Deck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ED39BD2CFE3C3100753A18 /* TapeDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapeDeck.swift; sourceTree = "<group>"; };
+		03ED39C12CFE3C3200753A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03ED39C42CFE3C3200753A18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03ED39CC2CFE3D0000753A18 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		03ED39D22CFE3D4E00753A18 /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		03ED39D42CFE3D7A00753A18 /* FileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileController.swift; sourceTree = "<group>"; };
+		03ED39D62CFE3D9800753A18 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		03ED39D92CFE3DDC00753A18 /* NewRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecordingView.swift; sourceTree = "<group>"; };
+		03ED39E12CFE508200753A18 /* RecordingMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingMetadata.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03ED39B72CFE3C3100753A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031F104F2CFE608F00A4A2AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03ED39CC2CFE3D0000753A18 /* Date.swift */,
+				031F10502CFE60A100A4A2AA /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		031F105F2D00EDE400A4A2AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				031F10592D00A3E200A4A2AA /* NotificationController.swift */,
+				03ED39D22CFE3D4E00753A18 /* AudioController.swift */,
+				03ED39D42CFE3D7A00753A18 /* FileController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		03ED39B12CFE3C3100753A18 = {
+			isa = PBXGroup;
+			children = (
+				03ED39BC2CFE3C3100753A18 /* Tape Deck */,
+				03ED39BB2CFE3C3100753A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03ED39BB2CFE3C3100753A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03ED39BA2CFE3C3100753A18 /* Tape Deck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03ED39BC2CFE3C3100753A18 /* Tape Deck */ = {
+			isa = PBXGroup;
+			children = (
+				031F10522CFE646800A4A2AA /* Tape-Deck-Info.plist */,
+				031F105F2D00EDE400A4A2AA /* Controllers */,
+				031F104F2CFE608F00A4A2AA /* Extensions */,
+				03ED39D82CFE3DCA00753A18 /* Views */,
+				03ED39D12CFE3D3100753A18 /* Models */,
+				03ED39BD2CFE3C3100753A18 /* TapeDeck.swift */,
+				03ED39C12CFE3C3200753A18 /* Assets.xcassets */,
+				03ED39C32CFE3C3200753A18 /* Preview Content */,
+			);
+			path = "Tape Deck";
+			sourceTree = "<group>";
+		};
+		03ED39C32CFE3C3200753A18 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03ED39C42CFE3C3200753A18 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03ED39D12CFE3D3100753A18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03ED39D62CFE3D9800753A18 /* Recording.swift */,
+				03ED39E12CFE508200753A18 /* RecordingMetadata.swift */,
+				031F10602D03368F00A4A2AA /* AudioState.swift */,
+				031F10622D0336A300A4A2AA /* AppState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03ED39D82CFE3DCA00753A18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03ED39D92CFE3DDC00753A18 /* NewRecordingView.swift */,
+				031F10642D033B6100A4A2AA /* RecorderView.swift */,
+				031F105B2D00AB5900A4A2AA /* RecordingView.swift */,
+				031F10572D00961300A4A2AA /* RecorderButtonView.swift */,
+				031F104D2CFE5C0300A4A2AA /* RecordingListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03ED39B92CFE3C3100753A18 /* Tape Deck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03ED39C82CFE3C3200753A18 /* Build configuration list for PBXNativeTarget "Tape Deck" */;
+			buildPhases = (
+				03ED39B62CFE3C3100753A18 /* Sources */,
+				03ED39B72CFE3C3100753A18 /* Frameworks */,
+				03ED39B82CFE3C3100753A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tape Deck";
+			productName = "Tape Deck";
+			productReference = 03ED39BA2CFE3C3100753A18 /* Tape Deck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03ED39B22CFE3C3100753A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					03ED39B92CFE3C3100753A18 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 03ED39B52CFE3C3100753A18 /* Build configuration list for PBXProject "Tape Deck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03ED39B12CFE3C3100753A18;
+			productRefGroup = 03ED39BB2CFE3C3100753A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03ED39B92CFE3C3100753A18 /* Tape Deck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03ED39B82CFE3C3100753A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ED39C52CFE3C3200753A18 /* Preview Assets.xcassets in Resources */,
+				03ED39C22CFE3C3200753A18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03ED39B62CFE3C3100753A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ED39D52CFE3D7A00753A18 /* FileController.swift in Sources */,
+				031F10582D00961300A4A2AA /* RecorderButtonView.swift in Sources */,
+				03ED39CD2CFE3D0000753A18 /* Date.swift in Sources */,
+				03ED39D32CFE3D4E00753A18 /* AudioController.swift in Sources */,
+				03ED39BE2CFE3C3100753A18 /* TapeDeck.swift in Sources */,
+				031F10632D0336A300A4A2AA /* AppState.swift in Sources */,
+				031F10612D03368F00A4A2AA /* AudioState.swift in Sources */,
+				03ED39D72CFE3D9800753A18 /* Recording.swift in Sources */,
+				031F105A2D00A3E200A4A2AA /* NotificationController.swift in Sources */,
+				03ED39DA2CFE3DDC00753A18 /* NewRecordingView.swift in Sources */,
+				031F105C2D00AB5900A4A2AA /* RecordingView.swift in Sources */,
+				031F10512CFE60A100A4A2AA /* View.swift in Sources */,
+				031F104E2CFE5C0300A4A2AA /* RecordingListView.swift in Sources */,
+				031F10652D033B6100A4A2AA /* RecorderView.swift in Sources */,
+				03ED39E22CFE508200753A18 /* RecordingMetadata.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03ED39C62CFE3C3200753A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03ED39C72CFE3C3200753A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03ED39C92CFE3C3200753A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tape Deck/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZQDLWU78B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tape-Deck-Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Calendar is used to save events.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is used to record audio.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icarusmedical.mobile.Tape-Deck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		03ED39CA2CFE3C3200753A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tape Deck/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZQDLWU78B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tape-Deck-Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Calendar is used to save events.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone is used to record audio.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icarusmedical.mobile.Tape-Deck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03ED39B52CFE3C3100753A18 /* Build configuration list for PBXProject "Tape Deck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ED39C62CFE3C3200753A18 /* Debug */,
+				03ED39C72CFE3C3200753A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03ED39C82CFE3C3200753A18 /* Build configuration list for PBXNativeTarget "Tape Deck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ED39C92CFE3C3200753A18 /* Debug */,
+				03ED39CA2CFE3C3200753A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03ED39B22CFE3C3100753A18 /* Project object */;
+}
